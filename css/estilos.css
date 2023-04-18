@@ -1,0 +1,99 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 16px;
+    background-image: url(/img/hospital\ adentro.jpg);
+}
+
+p{
+    text-align: justify;
+}
+
+.titulo{
+    font-size: 3rem;
+    color: rgb(255, 0, 0);
+    font-family: Geneva;
+    font-style: oblique;
+    text-align: center;
+}
+
+.centro{
+    width: 100rem;
+    margin: 0 auto;
+}
+
+.titulo2{
+    color: red;
+    font-size: 2rem;
+}
+
+.navegar{
+    background-color: rgb(153, 0, 255);
+}
+
+.navegar a{
+    font-style: oblique;
+    text-decoration: none;
+    padding: 1rem;
+    color: black;
+}
+
+.navegar a:hover{
+    background-color: rgba(0, 255, 13, 0.349);
+    color: rgba(1, 25, 61, 0.63);
+}
+
+.navegar2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img{
+    background-image: url(/img/descargar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25rem;
+    padding: 6rem;
+}
+
+.centrar{
+    text-align: center;
+}
+
+.separar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.separar2{
+    padding: 2rem;
+}
+
+.centrar1{
+ text-align: center;
+}
+
+.boton a{
+ color: blue;
+  text-decoration: none;  
+  background-color: blanchedalmond;
+  padding: 1rem;
+  border-radius: 3rem;
+}
+
+@media (max-width:768px){
+    .navegar2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}
+
+.margen{
+    -webkit-box-shadow: 19px 37px 36px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 19px 37px 36px 0px rgba(0,0,0,0.75);
+box-shadow: 19px 37px 36px 0px rgba(0,0,0,0.75);
+}
